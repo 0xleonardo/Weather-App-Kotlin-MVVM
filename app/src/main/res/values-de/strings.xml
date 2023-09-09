@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TVZ Wetter App</string>
+    <string name="view_weather">Wetter anzeigen</string>
+    <string name="my_weather">Mein Wetter</string>
+    <string name="degree_celsius_symbol">°C</string>
+    <string name="description_weather_condition_icon">weather condition icon</string>
+    <string name="label_humidity">Feuchtigkeit</string>
+    <string name="label_pressure">Druck</string>
+    <string name="label_visibility">Sichtweite</string>
+    <string name="label_wind">Wind</string>
+    <string name="label_sunrise">Sonnenaufgang</string>
+    <string name="label_sunset">Sonnenuntergang</string>
+    <string name="day_forecast">Tagesvorhersage</string>
+    <string name="hour_forecast">Stundenvorhersage</string>
+</resources>

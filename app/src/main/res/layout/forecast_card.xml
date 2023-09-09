@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context=".view.MainActivity">
+
+    <ImageView
+        android:id="@+id/card_image"
+        android:layout_width="63dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/description_weather_condition_icon"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/not_found"
+        tools:src="@drawable/not_found" />
+
+    <TextView
+        android:id="@+id/card_measurement"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        android:layout_weight="1"
+        android:text="@string/degree_celsius_symbol"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorBlueDark"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/card_temp_day"
+        app:layout_constraintTop_toBottomOf="@+id/card_image" />
+
+    <TextView
+        android:id="@+id/card_temp_day"
+        android:layout_width="26dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorBlueDark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_image"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="33" />
+
+    <TextView
+        android:id="@+id/card_timedate"
+        android:layout_width="63dp"
+        android:layout_height="24dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/colorBlueDark"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="15:30" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

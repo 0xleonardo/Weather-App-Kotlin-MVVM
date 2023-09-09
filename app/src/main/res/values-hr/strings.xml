@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TVZ Aplikacija za vrijeme</string>
+    <string name="view_weather">Provjeri Vrijeme</string>
+    <string name="my_weather">Moje Vrijeme</string>
+    <string name="degree_celsius_symbol">°C</string>
+    <string name="description_weather_condition_icon">weather condition icon</string>
+    <string name="label_humidity">Vlažnost</string>
+    <string name="label_pressure">Tlak</string>
+    <string name="label_visibility">Vidljivost</string>
+    <string name="label_wind">Vjetar</string>
+    <string name="label_sunrise">Izlazak sunca</string>
+    <string name="label_sunset">Zalazak sunca</string>
+    <string name="day_forecast">Dnevna prognoza</string>
+    <string name="hour_forecast">Satna prognoza</string>
+</resources>

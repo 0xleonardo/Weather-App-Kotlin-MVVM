@@ -1,0 +1,35 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBlueLight</item>
+        <item name="colorPrimaryDark">@color/colorBlueDark</item>
+        <item name="colorAccent">@color/colorBlueDark</item>
+
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="AppTheme_Dark" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorYellowLight</item>
+        <item name="colorPrimaryDark">@color/colorYellowDark</item>
+        <item name="colorAccent">@color/colorYellowDark</item>
+
+        <item name="actionBarStyle">@style/MyActionBar_Dark</item>
+    </style>
+
+    <style name="LabelStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="DefaultTextStyle" parent="TextAppearance.MaterialComponents.Body1">
+
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/gradient_blue</item>
+        <item name="background">@drawable/gradient_blue</item>
+    </style>
+
+    <style name="MyActionBar_Dark" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/gradient_yellow</item>
+        <item name="background">@drawable/gradient_yellow</item>
+    </style>
+</resources>
